@@ -8,9 +8,9 @@ const ExerciseSchema = new Schema({
     trim: true,
     required: "Exercise name",
   },
-  count: {
+  reps: {
     type: Number,
-    required: "Exercise Count",
+    required: "Amount of reps",
   },
   unit: {
     type: String,
